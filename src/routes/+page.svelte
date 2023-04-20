@@ -1,13 +1,13 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1>Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code>/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!</li>
-			<li><code>/src/app.postcss</code> - minimal css to make the page full screen, may not be relevant for your project</li>
-			<li><code>/src/routes/+page.svelte</code> - this page, you can replace the contents</li>
-		</ul>
+
+
+
+<form>
+	<textarea name="content"rows="7" class="flex mx-auto w-[40%] "></textarea>
+	<button type="button" class="btn flex mx-auto  m-4 w-[40%] variant-filled-primary py-2">Explain It</button>
+	<div class="m-10">
+		<h2 class="font-bold ml-40 text-left">Explanation:</h2>
+		<p class="text-center">text here</p>
 	</div>
-</div>
+</form>
+
