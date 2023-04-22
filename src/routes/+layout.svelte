@@ -17,7 +17,7 @@
 	<h3 class=" p-10 text-center font-bold" style="font-bold">tulaliloo ti amo, Allows 10 request per hour!</h3>
 
 	<slot />
-	<footer class="text-center py-20">Made with 🍌 by Raul Jarquin</footer>
+	<footer class="text-center py-20">Made with 🍌 by Raul</footer>
 
 </AppShell>
 
