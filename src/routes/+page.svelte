@@ -29,11 +29,11 @@ function translateToMinion(){
 
 
 <form>
-	<textarea id="content"rows="7" class="flex mx-auto w-[40%] " placeholder="hello?" on:input={()=>displayText()}></textarea>
-	<button type="button" class="btn flex mx-auto  m-4 w-[40%] variant-filled-primary py-2" on:click={()=>translateToMinion()}>Mnionssss</button>
+	<textarea id="content"rows="7" class="flex mx-auto w-[40%] " style="color:blue;"placeholder="hello?" on:input={()=>displayText()}></textarea>
+	<button type="button" class="btn flex mx-auto  m-4 w-[40%] variant-filled-primary py-2" on:click={()=>translateToMinion()}>🍌🍌🍌🍌🍌🍌🍌🍌</button>
 	<div class="m-10">
 		<h2 class="font-bold ml-40 text-left">Minions Translation:</h2>
-		<p id="displaying"class="text-center"></p>
+		<p id="displaying"class="text-center font-bold" style="font-size:20px;" ></p>
 		
 	</div>
 	<img src="./minions.jpg" style="height:50rem; display: block; margin: auto;"alt="" class="py-9">
