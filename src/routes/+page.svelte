@@ -36,6 +36,6 @@ function translateToMinion(){
 		<p id="displaying"class="text-center"></p>
 		
 	</div>
-	
+	<img src="./minions.jpg" style="height:50rem; display: block; margin: auto;"alt="" class="py-9">
 </form>
 
